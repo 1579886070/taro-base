@@ -10,7 +10,7 @@
     overflow-y: auto;
     position: relative;
     .header {
-      padding: 23px 0 16px;
+      padding: 23px 0 35px;
       width: 321px;
       position: absolute;
       top: 0;
@@ -22,13 +22,13 @@
       }
     }
     .group_1 {
-      padding: 3px 6.5px 0;
+      padding: 0 6.5px;
       position: absolute;
       left: 0;
       right: 0;
-      top: 73px;
+      top: 76px;
       .section_1 {
-        // margin-left: 14.5px;
+        margin-left: 14.5px;
         margin-right: 12.5px;
         background-color: rgb(226, 226, 226);
         box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
@@ -36,7 +36,6 @@
       }
       .group_2 {
         margin-top: 32.48px;
-        padding-bottom: 3px;
         .group_3 {
           padding: 3px 0 1.7px;
           .text {
@@ -47,7 +46,7 @@
           }
           .text_1 {
             margin-left: 6.64px;
-            color: #61686e;
+            color: #adb5bd;
             font-size: 16px;
             font-family: Poppins;
             line-height: 14.74px;
@@ -68,13 +67,14 @@
       }
     }
     .grid {
-      padding: 8px 4px 0 6px;
+      padding-left: 6px;
+      padding-right: 4px;
       background-color: rgb(255, 255, 255);
-      height: 619px;
+      height: 611px;
       position: absolute;
       left: 0;
       right: 0;
-      top: 249px;
+      top: 257px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       row-gap: 5px;

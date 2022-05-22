@@ -7,7 +7,8 @@
           :class="[styles['image']]" @tap="onClickImage" />
         <view :class="['flex-col', 'items-start', styles['section_1']]">
           <view :class="[styles['group']]">
-            <input type="text" :class="[styles['text_1']]" placeholder="Search" />
+            <!-- <text :class="[styles['text']]">|</text> -->
+            <input type="text" placeholder="Search" :class="[styles['text_1']]"/>
           </view>
         </view>
         <text :class="[styles['text_2']]">搜索</text>

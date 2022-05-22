@@ -10,7 +10,7 @@
           :class="[styles['image']]" />
       </view>
       <view :class="['flex-col', styles['group_1']]">
-        <!-- <view :class="[styles['section_1']]"> -->
+        <view :class="[styles['section_1']]">
 
         <nut-swiper :init-page="page" :pagination-visible="true" pagination-color="#426543" auto-play="3000"
           height="114">
@@ -26,7 +26,7 @@
         </nut-swiper>
 
         <!--*-->
-        <!-- </view> -->
+        </view>
         <view :class="['flex-col', styles['group_2']]">
           <view :class="['flex-row', styles['group_3']]">
             <text :class="[styles['text']]">珍惜每一个</text>
@@ -93,6 +93,7 @@ export default {
   img {
     width: 100%;
     height: 100%;
+    background-size: cover;
   }
 }
 </style>
