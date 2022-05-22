@@ -35,14 +35,14 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "@nutui/nutui-taro": "^3.1.8",
+    "@tarojs/components": "3.4.9",
+    "@tarojs/plugin-framework-vue3": "^3.4.9",
+    "@tarojs/plugin-html": "3.4.9",
     "@tarojs/runtime": "3.4.9",
     "@tarojs/taro": "3.4.9",
-    "@tarojs/components": "3.4.9",
-    "@tarojs/plugin-html": "3.4.9",
-    "@tarojs/plugin-framework-vue3": "3.4.9",
-    "vue": "^3.0.0",
-    "@nutui/nutui-taro": "^3.1.8",
-    "axios-miniprogram": "^v2.0.0-rc-2"
+    "tarojs-request": "^1.0.0",
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@types/webpack-env": "^1.13.6",

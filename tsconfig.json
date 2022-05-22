@@ -28,7 +28,8 @@
       "@/service/*": ["./src/service/*"],
       "@/stores/*": ["./src/stores/*"],
       "@/assets/*": ["./src/assets/*"],
-      "@/utils/*": ["./src/utils/*"]
+      "@/utils/*": ["./src/utils/*"],
+      "@/servers/*": ["./src/servers/*"],
     }
   },
   "include": ["./src", "global.d.ts"],
